@@ -19,16 +19,16 @@ jobs:
         dotnet-version: 8.0.x
 
     - name: Restore dependencies
-      run: dotnet restore
+      run: dotnet restore ./OSC-Stream/OSC-Stream.csproj
 
     - name: Build
-      run: dotnet build --no-restore -c Release
+      run: dotnet build ./OSC-Stream/OSC-Stream.csproj --no-restore -c Release
 
     - name: Test
-      run: dotnet test --no-build --verbosity normal -c Release
+      run: dotnet test ./OSC-Stream/OSC-Stream.csproj --no-build --verbosity normal -c Release
 
     - name: Publish
-      run: dotnet publish -c Release -o publish
+      run: dotnet publish ./OSC-Stream/OSC-Stream.csproj -c Release -o publish
 
     - name: Zip publish output
       run: |
