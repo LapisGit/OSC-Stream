@@ -6,7 +6,7 @@ There has recently been a project that popped up called "Object Stream Community
 
 This would be fine as obviously, cloud computing costs money, and also storing the files for the shows can also be quite costly!
 
-Until you realize that they are asking for ***24,000 USD.***
+Until you realize that they are asking for ***$24,000 USD.***
 
 Now for normal people with less than average techincal knowledge, this may seem reasonable, until you realize also that the only data that they need to store is:
 
@@ -17,7 +17,7 @@ Now for normal people with less than average techincal knowledge, this may seem 
 
 That's it. They don't store any show files, including thumbnails and videos, as they just use the YouTube embed player, so pretty much people are going to pay them ***$24,000 USD*** just for a fancy iframe.
 
-Oh yeah, also they state $24,000 USD for the FIRST YEAR ONLY. They have an entire subscription service where they are making money off just other people's content.
+Oh yeah, also they state $24,000 USD for the ***FIRST YEAR ONLY***. They have an entire subscription service where they are making money off just other people's content.
 
 And so I had a discussion with a friend, and I said jokingly "I could make this for free and open-source in a day." And so I did!
 
